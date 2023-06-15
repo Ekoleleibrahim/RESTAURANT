@@ -1,0 +1,318 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}  
+
+nav
+{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    padding: 19px 0;
+    text-align: left;
+}
+
+.link1,.link2,.link3,.link4
+{
+    color: white;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding:10px 50px;
+    
+}
+
+.link1:hover,.link2:hover,.link3:hover,.link4:hover
+{
+    padding-left: 20px;
+    text-align: center;
+    background-color: gray;
+    padding:20px 50px;
+    overflow: hidden;
+}
+
+.section1
+{
+    padding: 150px;
+    background-image: url(images/cafe2.jfif);
+    background-size: cover;
+}
+
+#section-thecafe
+{
+    text-align: center;
+    color: white;
+    font-size: 5em;
+}
+
+.container1
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.para1,.addresse
+{
+    background-color: black;
+    padding: 5px;
+    color: white;
+    position: relative;
+    top: 130px;
+}
+
+.para1
+{
+    position: relative;
+    right: 130px;
+    
+    
+}
+
+.addresse
+{
+    position: relative;
+    left: 100px;
+    
+}
+
+.section2
+{
+    padding: 50px;
+
+}
+
+.container2
+{
+    margin-left: 350px;
+    margin-right: 250px;
+    text-align: justify;
+    width: 670px;
+
+}
+
+
+#section-about
+{
+   text-align: center;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   margin-left: 580px;
+   text-transform: uppercase;
+   background-color: black;
+   color: white;
+   width: 220px;
+   
+    
+}
+
+.citation
+{
+    padding: 10px;
+    background-color: rgba(202, 232, 249, 0.3);
+    margin: 20px 0 35px 0;
+    border-left: 10px grey solid;
+
+}
+
+.image1,.image2
+{
+    width: 670px;
+    height: 320px;
+
+}
+
+q
+{
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+em
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+address
+{
+    margin-top: 10px;
+    line-height: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+strong
+{
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.section3
+{
+    padding: 50px;
+
+}
+
+#section-the_menu
+{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 600px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    width: 150px;
+ }
+
+ .container3
+{
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px black ;
+    width: 640px;
+    margin-left: 350px;
+
+}
+
+.div5
+{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.nor1,.nor2
+{
+    padding: 5px;
+    background-color: black;
+    width: 300px;
+    text-align: center;
+
+}
+
+.nor1:hover,.nor2:hover
+{
+    padding: 5px;
+    background-color: gray;
+    width: 300px;
+    text-align: center;
+
+}
+
+.eat,.drink
+{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    padding: 10px;
+}
+
+.div6,.div7,.div8,.div9,.div10
+{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.para3
+{
+    color: grey;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title
+{
+    font-weight: normal;
+    font-size: 1.3em;
+}
+
+.image2,.image3
+{
+    width: 660px;
+    height: 350px;
+
+}
+
+.mon-image2
+{
+    margin-top: 40px;
+    margin-left: 350px;
+}
+
+footer
+{
+    text-align: center;
+    padding: 20px;
+}
+
+.eko
+{
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section4
+{
+    padding: 50px;
+}
+
+#section-where
+{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 600px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    width: 250px;
+ }
+
+ .container4
+{
+    margin-left: 350px;
+    width: 700px;
+}
+
+strong
+{
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+.para4
+{
+    line-height:40px;
+}
+
+input
+{
+    font-size: 1em;
+    height: 50px;
+    width: 700px;
+    border-radius: 3px;
+    text-indent: 5px;
+    border: 1px solid grey;
+}
+
+.para5
+{
+    color: red;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button
+{
+    color: white;
+    background-color: black;
+    padding: 15px;
+    width: 200px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
