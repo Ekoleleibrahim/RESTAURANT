@@ -253,6 +253,8 @@ strong
 .para4
 {
     line-height:40px;
+    text-align: justify;
+    word-wrap: break-word;
 }
 
 input
