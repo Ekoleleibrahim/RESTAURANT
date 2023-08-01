@@ -64,15 +64,14 @@ nav
     padding: 5px;
     color: white;
     position: relative;
-    top: 130px;
+    top: 115px;
+    text-align: center;
 }
 
 .para1
 {
     position: relative;
-    right: 130px;
-    
-    
+    right: 130px; 
 }
 
 .addresse
