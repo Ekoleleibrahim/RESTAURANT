@@ -184,7 +184,7 @@ strong
     color: white;
     padding: 10px;
     background-color: black;
-    width: 200px;
+    width: 300px;
     text-align: center;
 }
 
@@ -434,7 +434,7 @@ footer
     .div5
     {
         padding: 10px;
-        display: block;
+        display: flex;
     
     }
 
@@ -453,7 +453,7 @@ footer
     {
         padding: 10px;
         background-color: gray;
-        width: 150px;
+        width: 200px;
         text-align: center;
 
     } 
