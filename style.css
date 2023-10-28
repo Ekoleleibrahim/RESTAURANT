@@ -1,19 +1,33 @@
-body
+*
 {
     margin: 0;
     padding: 0;
+}
+
+body
+{
     font-family: sans-serif;
     box-sizing: border-box;
-    overflow-x: hidden;
 }  
+
+h2
+{
+    font-size: 25px;
+}
+
+.header-one
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
 
 nav
 {
+    width: auto;
     background-color: black;
-    position: fixed;
-    padding: 19px 0;
-    text-align: left;
-    position: fixed;
+    padding: 18px 0;
 }
 
 .link1,.link2,.link3,.link4
@@ -32,12 +46,11 @@ nav
     text-align: center;
     background-color: gray;
     padding:20px 50px;
-    overflow: hidden;
 }
 
 .section1
 {
-    padding: 150px;
+    padding:150px 100px;
     background-image: url(images/cafe2.jfif);
     background-size: cover;
 }
@@ -55,7 +68,8 @@ nav
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    position: relative;
+    top: 115px;
 }
 
 .para1,.addresse
@@ -63,36 +77,20 @@ nav
     background-color: black;
     padding: 5px;
     color: white;
-    position: relative;
-    top: 115px;
-    text-align: center;
-}
-
-.para1
-{
-    position: relative;
-    right: 130px; 
-}
-
-.addresse
-{
-    position: relative;
-    left: 100px;
-    
+    text-align: center; 
 }
 
 .section2,.section3,.section4
 {
     padding: 30px;
     width: 670px;
-    margin: auto;
+    margin:50px auto;
 
 }
 
 .container2
 {
     text-align: justify;
-
 }
 
 
@@ -100,12 +98,11 @@ nav
 {
    text-align: center;
    margin: auto;
-   margin-top: 80px;
    margin-bottom: 20px;
    text-transform: uppercase;
    background-color: black;
    color: white;
-   width: 250px;
+   /* width: 250px; */
 }
 
 .citation
@@ -117,22 +114,23 @@ nav
 
 }
 
-.image1,.image2
-{
-    width: 670px;
-    height: 320px;
-
-}
-
 q
 {
     font-family:'Courier New', Courier, monospace;
-
 }
 
 em
 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.image1,.image2
+{
+    /* width: 670px; */
+    width: 100%;
+    /* height: 320px; */
+    height: auto;
 
 }
 
@@ -156,23 +154,22 @@ strong
     text-transform: uppercase;
     background-color: black;
     color: white;
-    width: 170px;
+    width: auto;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
  }
 
  .container3
 {
     padding: 10px;
     background-color: white;
-    box-shadow: 0 0 10px black ;
-    width: 640px;
+    box-shadow: 0 0 5px black ;
+    width: 650px;
 
 }
 
 .div5
 {
-    padding: 10px;
     display: flex;
     justify-content: center;
 }
@@ -184,7 +181,8 @@ strong
     color: white;
     padding: 10px;
     background-color: black;
-    width: 300px;
+    /* width: 300px; */
+    width: 100%;
     text-align: center;
 }
 
@@ -192,7 +190,7 @@ strong
 {
     padding: 10px;
     background-color: gray;
-    width: 300px;
+    /* width: 300px; */
     text-align: center;
 
 } 
@@ -211,20 +209,30 @@ strong
 
 .title
 {
-    font-weight: normal;
+    font-weight: 500;
     font-size: 1.3em;
 }
 
-.image2,.image3
+.image2
 {
-    width: 660px;
-    height: 350px;
+    width: 100%;
+    height: auto;
+    /* width: 660px; */
+    /* height: 350px; */
+
+}
+
+.image3
+{
+    width: 670px;
+    height: auto;
+    /* height: 350px; */
 
 }
 
 .mon-image2
 {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 #section-where
@@ -235,13 +243,19 @@ strong
     text-transform: uppercase;
     background-color: black;
     color: white;
-    width: 250px;
+    width: auto;
+    /* width: 250px; */
  }
 
  .container4
 {
-    width: 700px;
+    width: 670px;
     margin: auto;
+}
+
+.container4 p:first-child
+{
+    margin-bottom: 10px;
 }
 
 strong
@@ -253,19 +267,28 @@ strong
 
 .para4
 {
-    line-height:40px;
+    line-height:30px;
     text-align: justify;
     word-wrap: break-word;
+    margin-bottom: 20px;
 }
 
 input
 {
     font-size: 1em;
     height: 50px;
-    width: 700px;
+    width: 100%;
+    /* width: 700px; */
     border-radius: 3px;
     text-indent: 5px;
     border: 1px solid grey;
+    outline: none;
+    margin-top: 20px;
+}
+
+input:last-child
+{
+    margin-bottom: 10px;
 }
 
 .para5
@@ -273,16 +296,26 @@ input
     color: red;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
 }
 
 button
 {
+    margin: 0 auto;
     color: white;
     background-color: black;
     padding: 15px;
-    width: 200px;
+    width:30%;
+    outline: none;
+    border: none;
     border-radius: 3px;
     text-transform: uppercase;
+    transition: transform 200ms;
+}
+
+button:hover
+{
+    transform: scale(1.1);
 }
 
 footer
@@ -296,222 +329,78 @@ footer
     color: black;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+#section-about,#section-the_menu,#section-where
+{
+    width: 300px;
+    margin-bottom: 20px;
+}
 /* debut des requettes média */
 @media screen and (max-width:800px) {
- 
-
-    nav
+    h2
     {
-        background-color: black;
-        position: fixed;
-        width:auto;
-        padding: 10px 0;
-        text-align: center;
+        font-size: 20px;
+    }
+    .header-one{
+        position: static;
     }
 
     .link1,.link2,.link3,.link4
     {
-        color: white;
-        font-size: 1em;
-        text-transform: uppercase;
-        text-decoration: none;
-        padding:10px 15px;
-        
+        padding:10px 20px;   
     }
 
     .link1:hover,.link2:hover,.link3:hover,.link4:hover
     {
-        padding-left: 20px;
-        text-align: center;
-        background-color: gray;
-        padding:12px 15px;
-        
-    }
-
-    #section-thecafe
-    {
-        text-align: center;
-        color: rgb(43, 42, 42);
-        font-size: 5em;
-        text-transform: uppercase;
+        padding:20px 20px;
     }
 
     .section1
     {
-        padding: 40px;
-        background-image: url(images/cafe2.jfif);
-        background-size: cover;
+        padding:50px;
     }
 
     .container1
     {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-
-    }
-
-    .para1,.addresse
-    {
-        background-color: black;
-        padding: 5px;
-        color: white;
-        position: relative;
-        top: 20px;
-    }
-
-    .para1
-    {
-        position: relative;
-        right: 30px;
-        
-        
-        
-    }
-
-    .addresse
-    {
-        position: relative;
-        left: 30px;
-        top: 15px;
-        
+        top: 30px;
     }
 
     .section2,.section3,.section4
     {
         padding: 30px;
-        width: auto;
-        margin: auto;
+        width:auto;
+        margin:20px auto;
 
     }
 
-    #section-about
+    .container3
     {
-        text-align: center;
-        margin: auto;
-        margin-top: 30px;
-        margin-bottom: 20px;
-        text-transform: uppercase;
-        background-color: black;
-        color: white;
-        width: 250px;
+        width:100%;
+    
     }
 
     .image2,.image3
     {
-        width: auto;
+        width:100%;
         height: 250px;
+        /* height: 350px; */
 
     }
 
-    .image1
+    .container4
     {
-        width: auto;
-        height: 200px;
-
-    }
-
-    #section-where
-    {
-        text-align: center;
+        width:100%;
         margin: auto;
-        margin-bottom: 50px;
-        text-transform: uppercase;
-        background-color: black;
-        color: white;
-        width: 250px;
     }
 
     .container3
     {
         padding: 10px;
         background-color: white;
-        box-shadow: 0 0 10px black ;
+        box-shadow: 0 0 5px black ;
         width: auto;
-    
-    }
-    
-    .div5
-    {
-        padding: 10px;
-        display: flex;
-    
     }
 
-    .eat,.drink
-    {
-        text-decoration: none;
-        text-transform: capitalize;
-        color: white;
-        padding: 10px;
-        background-color: black;
-        width: 200px;
-        text-align: center;
-    }
 
-    .eat:hover,.drink:hover
-    {
-        padding: 10px;
-        background-color: gray;
-        width: 200px;
-        text-align: center;
-
-    } 
-
-    #section-where
-    {
-        text-align: center;
-        margin: auto;
-        margin-bottom: 50px;
-        text-transform: uppercase;
-        background-color: black;
-        color: white;
-        width:250px;
-    }
-
-    .container4
-    {
-        width: auto;
-        margin: auto;
-    }
-
-    .mon-image2
-    {
-        margin-top: 20px;
-    }
-
-    .image3
-    {
-        width: auto;
-        height: 210px;
-
-    }
-
-    input
-    {
-        font-size: 1em;
-        height: 30px;
-        width: 350px;
-        border-radius: 3px;
-        text-indent: 5px;
-        border: 1px solid grey;
-    }
-
-    .para5
-    {
-        color: red;
-        font-weight: bold;
-        font-family: 'Times New Roman', Times, serif;
-    }
-
-    button
-    {
-        color: white;
-        background-color: black;
-        padding: 15px;
-        width: 150px;
-        border-radius: 3px;
-        text-transform: uppercase;
-    }
 
 }
