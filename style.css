@@ -405,7 +405,7 @@ footer
 
 @media screen and (max-width:535px) {
     button{
-        width: 200px;
+        width:300px;
         padding: 10px;
     }
 }
