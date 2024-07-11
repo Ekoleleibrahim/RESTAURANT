@@ -15,6 +15,10 @@ h2
     font-size: 25px;
 }
 
+img{
+    object-fit: cover;
+}
+
 .header-one
 {
     position: fixed;
@@ -59,31 +63,13 @@ nav
 {
     text-align: center;
     color: white;
-    font-size: 5em;
+    font-size: 3em;
     text-transform: uppercase;
 }
 
-/* .container1 
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    top: 115px;
-}
-
-.para1,.addresse
-{
-    background-color: black;
-    padding: 5px;
-    color: white;
-    text-align: center; 
-}
-*/
-
 .section2,.section3,.section4
 {
-    padding: 30px;
+    padding: 20px;
     width: 670px;
     margin:50px auto;
 
@@ -138,7 +124,7 @@ em
 address
 {
     margin-top: 10px;
-    line-height: 20px;
+    line-height: 2.5;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
@@ -334,6 +320,7 @@ footer
 #section-about,#section-the_menu,#section-where
 {
     width: 300px;
+    text-align: center;
     margin-bottom: 20px;
 }
 /* debut des requettes média */
@@ -358,7 +345,7 @@ footer
 
     .section1
     {
-        padding:50px;
+        padding: 50px;
     }
 
     .container1
@@ -368,7 +355,6 @@ footer
 
     .section2,.section3,.section4
     {
-        padding: 30px;
         width:auto;
         margin:20px auto;
 
